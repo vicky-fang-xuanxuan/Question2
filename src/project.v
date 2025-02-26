@@ -24,6 +24,8 @@ module tt_um_example (
   // List all unused inputs to prevent warnings
   wire _unused = &{ena, clk, rst_n, 1'b0};
 
+endmodule
+    
 module priority_encoder (
     input wire [7:0] A,      // 8位输入A
     input wire [7:0] B,      // 8位输入B
@@ -74,4 +76,4 @@ module priority_encoder (
 
 endmodule
 
-endmodule
+
